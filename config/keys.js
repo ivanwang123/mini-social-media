@@ -1,4 +1,4 @@
 module.exports = {
-    mongoURI: 'mongodb+srv://IvWa:Tweryui4@cluster0-rkq3e.mongodb.net/test?retryWrites=true&w=majority',
-    jwtSecret: 'jwtSecret'
+    mongoURI: process.env.MONGO_URI,
+    jwtSecret: process.env.JWT_SECRET
 }
